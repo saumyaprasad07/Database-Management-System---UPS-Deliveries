@@ -1,86 +1,89 @@
 # 🚚 UPS Logistics Database Management System
 
-![Built with MySQL](https://img.shields.io/badge/Built%20With-MySQL-blue)
-![Status](https://img.shields.io/badge/Project%20Status-Completed-green)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
-
-### 📊 A Data-Driven SQL Project for Optimizing Logistics Operations
-
-This project focuses on designing and implementing a **relational database management system (RDBMS)** for **UPS Deliveries**, simulating real-world logistics operations such as **shipment tracking, delivery scheduling, warehouse management, and customer information**. The goal is to ensure **data integrity, query efficiency, and business process optimization** through advanced SQL and database design concepts.
+A **MySQL-based database project** designed to streamline and optimize logistics operations for UPS Deliveries. The system models real-world logistics workflows—managing customers, shipments, warehouses, vehicles, and employees—to ensure efficient data management, operational tracking, and performance analytics.
 
 ---
 
-## 🧠 Project Overview
+## 📊 Project Overview
 
-The **UPS Logistics Database Management System** was developed to streamline logistics operations by effectively managing shipment data, delivery routes, and employee assignments.  
-We designed and implemented this system using **MySQL**, adhering to **best practices in normalization, indexing, and query optimization** to enhance database performance.
+This project replicates the logistics operations of a delivery company by developing a **relational database management system (RDBMS)** that:
+- Tracks shipments, deliveries, and warehouse operations  
+- Optimizes resource allocation and delivery scheduling  
+- Supports analytical queries for business reporting and decision-making  
 
----
-
-## 🎯 Objectives
-
-- Design a **normalized and scalable database** for logistics management.
-- Implement **data modeling** using **EER Diagrams (EERD)** and **3NF normalization**.
-- Apply **SQL optimization** techniques (CTEs, window functions, indexing).
-- Perform **business and technical analysis** via BRD, TRD, and process modeling.
-- Enable **data-driven insights** through optimized queries and reports.
+The database was developed and implemented in **MySQL Workbench**, emphasizing normalization, indexing, and referential integrity.
 
 ---
 
-## 🗂️ Database Design
+## 🧠 Objectives
 
-### 🔹 Key Entities:
-- **Customer**
-- **Shipment**
-- **Warehouse**
-- **Delivery**
-- **Employee**
-- **Vehicle**
-- **Location**
-
-### 🔹 Relationships:
-- A customer can send or receive multiple shipments.
-- Each shipment is assigned to a delivery and a specific employee.
-- Warehouses manage shipments through vehicle assignments and schedules.
+- Design and implement a relational database reflecting UPS logistics workflows.  
+- Establish logical relationships between entities such as **Customers**, **Shipments**, **Employees**, and **Warehouses**.  
+- Minimize redundancy and anomalies using **Third Normal Form (3NF)** normalization.  
+- Apply **indexing and query optimization** to improve performance.  
+- Provide a foundation for analytics and business intelligence reporting.
 
 ---
 
-## 🧩 Data Modeling
+## 🏗️ Database Design
 
-### 🏗️ EER Diagram
-The **EER Diagram (Enhanced Entity-Relationship Diagram)** defines the logical structure and relationships among tables, enabling an efficient database schema.
+### Entity–Relationship Diagram (EER)
+The system models the relationships among entities that drive UPS delivery operations.
 
-*(EER Diagram image placeholder — Add your diagram here)*
+**Key Entities:**
+- **Customer:** Stores customer contact and address details.  
+- **Shipment:** Tracks packages, costs, delivery dates, and shipment status.  
+- **Warehouse:** Stores and manages inventory and distribution centers.  
+- **Employee:** Represents delivery staff and logistics managers.  
+- **Vehicle:** Manages delivery fleet information and assignments.  
+- **Location:** Contains city and province details for routing.
 
-### 🧮 Normalization
-The schema was normalized to **Third Normal Form (3NF)** to eliminate redundancy and ensure data consistency.
-
----
-
-## ⚙️ SQL Features Implemented
-
-| Feature | Description |
-|----------|--------------|
-| **DDL** | Created tables, primary keys, foreign keys, and constraints |
-| **DML** | Inserted, updated, and deleted records |
-| **CTEs** | Simplified complex queries and improved readability |
-| **Window Functions** | Used for ranking deliveries and performance metrics |
-| **Indexes** | Optimized query performance on frequently queried columns |
-| **Views** | Created to display shipment summaries and delivery analytics |
-| **Joins** | Combined multiple tables for business reports |
+*(You can insert your actual EER diagram here — e.g., `![EER Diagram](assets/eer_diagram.png)`).*
 
 ---
 
-## 📈 Business Analysis Documents
+## ⚙️ Tools & Technologies
 
-| Document | Description |
-|-----------|-------------|
-| **BRD (Business Requirements Document)** | Defines project scope, objectives, and business needs |
-| **TRD (Technical Requirements Document)** | Outlines database specifications, architecture, and performance goals |
-| **Project Charter** | Provides a high-level overview of goals, stakeholders, and deliverables |
-| **Process Modeling (draw.io)** | Visual representation of delivery and logistics workflows |
+| Category | Tools/Technologies |
+|-----------|--------------------|
+| Database | MySQL, MySQL Workbench |
+| Modeling | EERD (Enhanced Entity–Relationship Diagram) |
+| Optimization | Indexing, CTEs, Window Functions |
+| Documentation | Draw.io, Excel, PDF Reports |
+| Project Management | BRD, TRD, Project Charter |
 
+---
 
-![Built with MySQL](https://img.shields.io/badge/Built%20With-MySQL-blue)
-![Status](https://img.shields.io/badge/Project%20Status-Completed-green)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
+## 🧩 Key Features
+
+- 📦 **Shipment Tracking:** Manage delivery status, dates, and routes.  
+- 🧭 **Warehouse Management:** Track inventory levels and optimize storage.  
+- 👷 **Employee Allocation:** Manage staff roles and delivery responsibilities.  
+- 🚗 **Fleet Management:** Maintain records of delivery vehicles and assignments.  
+- 📈 **Analytical Capability:** Schema supports performance and cost analysis.  
+
+---
+
+## 🧮 Normalization
+
+The database schema is normalized up to **Third Normal Form (3NF)** to:
+- Remove redundancy,  
+- Ensure referential integrity, and  
+- Simplify future scalability and updates.  
+
+---
+
+## ⚡ Setup and Execution
+
+Follow these steps to set up and run the project on your local system:
+
+### **Prerequisites**
+- Install [MySQL Server](https://dev.mysql.com/downloads/mysql/)  
+- Install [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)  
+
+### **Steps**
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/saumyaprasad07/Database-Management-System-UPS-Deliveries.git
+   cd Database-Management-System-UPS-Deliveries
+
