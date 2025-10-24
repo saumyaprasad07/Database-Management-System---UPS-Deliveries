@@ -75,3 +75,8 @@ The schema was normalized to **Third Normal Form (3NF)** to eliminate redundancy
 | **TRD (Technical Requirements Document)** | Outlines database specifications, architecture, and performance goals |
 | **Project Charter** | Provides a high-level overview of goals, stakeholders, and deliverables |
 | **Process Modeling (draw.io)** | Visual representation of delivery and logistics workflows |
+
+
+![Built with MySQL](https://img.shields.io/badge/Built%20With-MySQL-blue)
+![Status](https://img.shields.io/badge/Project%20Status-Completed-green)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
