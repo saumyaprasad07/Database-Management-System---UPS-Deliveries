@@ -1,5 +1,9 @@
 # 🚚 UPS Logistics Database Management System
 
+![Built with MySQL](https://img.shields.io/badge/Built%20With-MySQL-blue)
+![Status](https://img.shields.io/badge/Project%20Status-Completed-green)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
+
 ### 📊 A Data-Driven SQL Project for Optimizing Logistics Operations
 
 This project focuses on designing and implementing a **relational database management system (RDBMS)** for **UPS Deliveries**, simulating real-world logistics operations such as **shipment tracking, delivery scheduling, warehouse management, and customer information**. The goal is to ensure **data integrity, query efficiency, and business process optimization** through advanced SQL and database design concepts.
